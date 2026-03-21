@@ -1,0 +1,27 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mhr2964/streaming-media-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/mhr2964/streaming-media-assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhr2964/streaming-media-assignment.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0"
+  }
+}
